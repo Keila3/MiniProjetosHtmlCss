@@ -4,3 +4,9 @@
 
 - Exibição de ícones de Instagram, Twitter e Facebook.
 - Efeito de transição suave ao passar o mouse sobre os ícones.
+
+
+## Projeto 2: Loader com animação
+  Funcionalidades
+
+  
