@@ -1,0 +1,61 @@
+* {
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: left;
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 23px;
+    border: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #email,
+  #senha {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 7px 0;
+    width: calc(100% - 20px); 
+  }
+  
+  button {
+    border: 0;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: calc(100% - 40px); 
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

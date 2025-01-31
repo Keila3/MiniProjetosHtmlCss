@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+    <!--Seçao para cabeçalho-->
+    <section>
+        <div>
+            <h1>Faça o seu login</h1>
+        </div>
+    </section>
+
+    <!--Seçao para campo do fomulario-->
+    <section>
+        <form action="">
+    <!-- campo de email-->
+            <label for="email">Email</label>
+            <input required name="email" id="email" type="email">
+    <!--campo de senha-->
+            <label for="senha">Senha</label>
+            <input required minlength="6" pattern="(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}" name="senha" id="senha" type="password">
+    <!--Botao de submit-->
+            <button type="submit">Submit</button>
+        </form>
+        
+    </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
